@@ -19,10 +19,14 @@ To run locally, use
 The site will be available at `http://localhost:4000`.
 
 ### Docker
-If you prefer to use Docker, you can use 
+If you prefer to use Docker, you can run
 ```code
 docker run --rm --label=jekyll --volume="$PWD:/srv/jekyll" -it -p 4000:4000 jekyll/jekyll export JEKYLL_VERSION=4.2 | bundle install | jekyll serve -w
 ```
+
+More information on running Docker with Jekyll can be found [here](https://ddewaele.github.io/running-jekyll-in-docker/).
+
+
 
 
 
