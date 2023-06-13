@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Ghost Buses Blog!"
 date:   2023-06-05 19:19:05 -0500
 categories: jekyll update
 ---
