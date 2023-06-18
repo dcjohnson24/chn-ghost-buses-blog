@@ -27,7 +27,12 @@ docker run --rm --label=jekyll --volume="$PWD:/srv/jekyll" -it -p 4000:4000 jeky
 More information on running Docker with Jekyll can be found [here](https://ddewaele.github.io/running-jekyll-in-docker/).
 
 
+## Posts
+To write a post, create a file in the `_posts` directory with the format `YYYY-MM-DD-title.md`, where `YYYY` is the four digit year, and `MM` and `DD` are the two digit month and day respectively. 
 
+To write a draft post, create a `_drafts` directory in the site root and create a file without a date in the file name. To preview your site with drafts, use `bundle exec jekyll serve --drafts`.
+
+See [here](https://jekyllrb.com/docs/posts/) for more information about formatting blog posts. 
 
 
 
